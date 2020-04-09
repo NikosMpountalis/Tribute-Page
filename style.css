@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(to right, #877cb0, #d46a6a);
+}
+
+#main {
+  text-align: center;
+}
+
+#img-div {
+  display: block;
+  border: 1px solid black;
+  align-items: center;
+  background-color: #877cb0;
+  margin: 20px 200px;
+  box-shadow: 5px 10px #3f3075;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div:hover {
+  transform: scale(1.1);
+}
